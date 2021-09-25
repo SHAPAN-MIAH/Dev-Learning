@@ -1,12 +1,16 @@
 import React from "react";
-import Nav from "./Nav";
-import classes from ;
+import Nav from "./Navbar/Nav";
+import classes from "../Styles/Layout.module.css";
+import Home from "./Pages/Home/Home";
 
-const Layout = () => {
+const Layout = ({ Children }) => {
   return (
     <>
       <Nav />
       <main className={classes.main}>
+        <div className={classes.container}>
+          <Home />
+        </div>
       </main>
     </>
   );

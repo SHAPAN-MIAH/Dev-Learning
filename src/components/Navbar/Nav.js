@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../assets/images/Dl logo.png";
+import logo from "../../assets/images/Dl logo.png";
 import Account from "./Account";
-import Classes from "../Styles/Nav.module.css";
+import Classes from "../../Styles/Nav.module.css";
 
 const Nav = () => {
   return (
